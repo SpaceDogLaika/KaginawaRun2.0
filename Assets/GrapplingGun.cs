@@ -49,6 +49,8 @@ public class GrapplingGun : MonoBehaviour
     [HideInInspector] public Vector2 grapplePoint;
     [HideInInspector] public Vector2 grappleDistanceVector;
 
+
+
     private void Start()
     {
         grappleRope.enabled = false;
